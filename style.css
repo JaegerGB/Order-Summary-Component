@@ -22,7 +22,7 @@ body{
     margin: 100px auto;
     border-radius: 10px;
     overflow: hidden;
-    height: 500px;
+    height: fit-content;
     background-color: white;
     text-align: center;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
@@ -69,22 +69,23 @@ body{
 
 .annual-price{
     margin-left: -50px;
-    line-height: 22px;
-    font-size: 15px;
+    line-height: 20px;
+    font-size: 10px;
+    text-align: left;
+}
+
+.annualplan{
+    font-size: 7px;
 }
 
 .pricechange-logo img{
     width: 45px;
     margin-right: 12px;
-    margin-bottom: -8px;
+    margin-bottom: -4px;
 }
 
 .price{
-    color: hsl(224, 23%, 55%);
-    margin-left: -8px;
-    
-
-}
+    color: hsl(224, 23%, 55%);}
 
 .item{
     margin-top: auto;
